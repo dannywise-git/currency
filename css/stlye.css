@@ -1,0 +1,249 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* background-color: rgb(31, 30, 30); */
+}
+.nav-container{
+    width: 100%;
+    background-color: black;
+}
+.nav-bar{
+    width: 85%;
+    max-width: 1720px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    height: 60px;
+    align-items: center;
+}
+.nav-menu{
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-menu ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+.nav-links{
+    text-decoration: none;
+    color: white;
+    margin: 0px 16px;
+}
+.nav-menu ul li::after{
+    content: "";
+    width: 0%;
+    height: 2px;
+    background: rgb(38, 0, 255);
+    display: block;
+    margin:auto;
+
+}
+.nav-menu ul li:hover::after{
+    transition: 0.5s;
+    width: 100%;
+}
+.nav-btn{
+    padding: 10px;
+    background-color: black;
+    border: 4px solid rgb(5, 73, 199);
+    border-radius: 10px;
+    text-decoration: none;
+    outline: none;
+} 
+.nav-btn a{
+    text-decoration: none;
+    color: rgb(5, 73, 199);
+}
+.menu-toggle .bar{
+    width: 30px;
+    height: 3px;
+    margin: 5px auto;
+    transition: all 0.3s ease-in-out;
+    background-color: rgb(243, 237, 237);
+}
+.container-1{
+    width: 85%;
+    margin: 0 auto;
+    text-align: center;
+}
+.container{
+    background-color: rgb(17, 16, 16);
+    padding: 4em 0em;
+
+}
+.container h1{
+    color: rgb(246, 248, 250);
+    font-size: 4em;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 82%;
+    margin: 0 auto;
+}
+.container p{
+    color: rgb(184, 182, 179);
+    font-size: 20px;
+    width: 50%;
+    margin: 0 auto;
+    padding: 1em 0em;
+}
+.con-btn{
+    background-color: rgb(5, 73, 199);
+    padding: 10px 30px;
+    border-radius: 5px;
+    border: 1px solid rgb(5, 73, 199);
+}
+.con-btn a{
+    text-decoration: none;
+    color: white;
+}
+.coins-logo{
+    padding: 2em 4em;
+    margin-top: 3em;
+    border-top: 0.5px solid rgb(48, 46, 46);
+    border-bottom: 0.5px solid rgb(48, 46, 46);
+    display: flex;
+    justify-content: space-around;
+}
+.coins-logo img{
+    width: 15%;
+}
+.container-2{
+    background-color: rgb(17, 16, 16);
+}
+.con-2{
+    width: 85%;
+    margin: 0 auto;
+}
+.cryto-con{
+    margin-top: 4em;
+} 
+.market-con{
+    display: flex;
+    width: 30%;
+    margin-right: 40px;
+}
+.market{
+    width: 100%;
+    display: flex;
+}
+.img-c{
+    margin-right: 15px;
+}
+.text{
+    color: rgb(165, 160, 160);
+    margin: 5px;
+}
+.market-con h2{
+    color: rgb(247, 244, 244);
+    font-size: 17px;
+}
+.Trends{
+    text-align: center;
+}
+.Trends h1{
+    font-size: 3em;
+} 
+.big-img{
+    width: 100%;
+}
+.big-img img{
+    width: 100%;
+}
+.card-container{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.card{
+    background-color: rgb(46, 45, 45);
+    width: 30%;
+    margin: 0px 40px 20px 0px;
+    border-radius: 10px;
+    padding-bottom: 1px;
+}
+.card img{
+    width: 100%;
+}
+.pad{
+    background-color: rgb(17, 16, 16);
+    padding-bottom: 5em;
+}
+.card-1{
+    margin: 1em;
+}
+.btnt{
+    padding: 5px 11px;
+    background-color: rgb(117, 117, 226);
+    color: white;
+    border-radius: 15px;
+    border: 2px solid rgb(117, 117, 226);
+}
+.card-1 h4{
+    color: white;
+    margin-top: 3px;
+}
+.card-1 p{
+    color: rgb(172, 170, 167);
+    margin-top: 3px;
+}
+footer{
+    background-color: rgb(22, 20, 20);
+    padding-top: 2em;
+}
+.footer{
+    width: 85%;
+    max-width: 1720px;
+    margin: 0 auto;
+    padding-bottom: 2em;
+}
+.foot{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.foot h4{
+    color: #fff;
+    font-size: 20px;
+    margin-bottom: 12px;
+}
+.foot-link{
+    color: #fff;
+    text-decoration: none;
+    opacity: 0.7;
+}
+.foot li{
+    list-style: none;
+    padding: 10px 0px;
+}
+.foot-link:hover{
+    opacity: 1;
+}
+.last{
+    padding: 2em 0em;
+    width: 85%;
+    margin: 0 auto;
+    display: flex; 
+    justify-content: space-between; 
+    color: #fff;
+}
+.last-mdi{
+  width: 20%;
+}
+.mdi{
+    padding: 2px;
+    background-color: rgb(73, 71, 71);
+    color: white;
+    border-radius: 30px;
+    font-size: 25px;
+    margin-right: 10px;
+}
+.mdi:hover{
+    color: blue;
+    background-color: #fff;
+}
+hr{
+  opacity: 0.1;
+}

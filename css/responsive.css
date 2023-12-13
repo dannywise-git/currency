@@ -1,0 +1,99 @@
+@media only screen and (max-width:700px){
+.nav-menu{
+    flex-direction: column;
+    background-color: rgb(55, 55, 56);
+   width: 100% ;
+    position: absolute;
+    top: 3em;
+    opacity: 0;
+    left: -100%;
+}
+.nav-menu.active{
+    opacity: 1;
+    left: 0em;
+}
+.nav-menu ul{
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+}
+.menu-toggle .bar{
+    display: block;
+    cursor: pointer;
+}
+.nav-menu ul li{
+    padding-top: 10px;
+}
+.menu-toggle:hover{
+    cursor: pointer;
+}
+#mobile-menu.is-active .bar:nth-child(2){
+    opacity: 0;
+}
+#mobile-menu.is-active .bar:nth-child(1){
+    transform: translateY(8px) rotate(45deg);
+}
+#mobile-menu.is-active .bar:nth-child(3){
+    transform: translateY(-8px) rotate(-45deg);
+}
+.nav-btn{
+    padding: 10px 0px;
+    width: 100%;
+}
+.container h1{
+    width: 100%;
+    font-size: 25px;
+}
+.container p{
+    width: 100%;
+    font-size: 13px;
+}
+.coins-logo{
+    padding: 1em 0em;
+}
+.market{
+    display: block;
+}
+.container-2{
+    padding: 1em 0em;
+}
+.market-con{
+ width: 100%;
+ margin: 1em 0em 0em 0em;
+}
+.big-img{
+    overflow-x: scroll;
+}
+.big-img img{
+    width: 250%;
+}
+.card-container{
+    display: block;
+}
+.card {
+    width: 100%;
+    margin: 0em 0em 1.5em 0em;
+}
+.footer{
+    width: 100%;
+}
+.foot{
+    display: block;
+}
+.foot h4, .fot-img{
+    margin-left: 1.7em;
+}
+.fot li {
+    padding-left: 2em;
+}
+.fot li:hover{
+ background-color: black;
+}
+.last{
+    display: block;
+}
+.last-mdi{
+    width: 100%;
+    margin-top: 10px;
+  }
+}
